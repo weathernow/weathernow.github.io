@@ -16,11 +16,11 @@ body {
 }
 
 .search-box {
-	width: 10%;
+	width: 100%;
 	padding: 35px;
 }
 .search-box .search-bar {
-	width: 100%;
+	width: 10%;
 	padding: 15px;
 
 	border:none;
