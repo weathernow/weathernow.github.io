@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+
+
+}
+main {
+	background: #0009;
+	min-height: 100vh;
+}
+#app {
+	width: 100%;
+	
+
+	background:url(images/sky-sunny-clouds-cloudy-3768.jpg);
+	background-size: cover;
+	background-position: bottom;
+	min-height: 100vh;
+
+}
+
+.search-box {
+	width: 100%;
+	padding: 35px;
+}
+.search-box .search-bar {
+	width: 100%;
+	padding: 15px;
+
+	border:none;
+	outline: none;
+	background:none;
+
+	background:rgba(255,255,255,0.75);
+	border-radius:  16px 0 16px 0;
+	box-shadow: 1px 3px 10px #000;
+	text-align: center;
+	color:#727272FF;
+}
+.search-box .search-bar:focus {
+	border-radius:0  16px 0 16px;
+
+}
+.weather__location {
+	text-align: center;
+}
+.weather__location .location {
+	padding: 25px 0;
+	color:#fff;
+	font-size: 35px;
+	font-weight: bolder;
+}
+.weather__location .date {
+	padding: 5px 0;
+	color:#ccc;
+}
+.weather__info {
+	text-align: center;
+	padding: 20px 0;
+}
+.weather__info .weather__temp {
+	display: inline-block;
+	font-size: 90px;
+	padding: 25px;
+	color:#fff;
+	border-radius: 18px;
+	box-shadow: 1px 1px 10px #000;
+	background: rgba(255,255,255,0.25);
+	margin: 20px 0; 
+}
+.weather__info .weather__rain {
+	color:#fff;
+	padding:15px 0;
+	font-size: 24px;
+}
+#app.warm {
+	background-image: url(images/green-pine-trees-covered-with-fogs-under-white-sky-during-167699.jpg);
+	background-position: bottom;
+	background-size: cover;
+
+
+}
