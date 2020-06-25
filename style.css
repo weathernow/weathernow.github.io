@@ -71,11 +71,3 @@ body {
 #app.warm {
 	background:#23DB90FF;
 }
-@media screen and (max-width: 768px) {
-	.search-box {
-		width: 300px;
-	}
-	.search-box .search-bar {
-		width:100%;
-	}
-}
